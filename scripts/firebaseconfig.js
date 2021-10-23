@@ -20,7 +20,7 @@
   };
 
   App.FirebaseConfig = FirebaseConfig;
-  FirebaseConfig.initializeApp(App.FirebaseConfig);
+  firebase.initializeApp(App.FirebaseConfig);
 
   window.App = App;
   
