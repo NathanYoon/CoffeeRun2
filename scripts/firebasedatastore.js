@@ -7,7 +7,8 @@
     class firebasedatastore {
         constructor() {
             console.log('running the firebasedatastore function');
-  
+            // app = initializeApp(window.FirebaseConfig);
+            // this.db = getFirestore(app);
             this.db = firebase.firestore();
         }
   
